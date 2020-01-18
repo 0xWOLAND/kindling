@@ -1,0 +1,15 @@
+:root {
+    --primary-color: rgba(13, 110, 129, 0.75);
+    --overlay-color: rgba(25,39,51, 0.85);
+    --menu-speed: 0.75s;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line
+
+}

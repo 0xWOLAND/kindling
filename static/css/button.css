@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+.button_container_desktop_top {
+	position: absolute;
+  left: 40%;
+  right: 0;
+  top: 70%;
+}
+
+.button_container_desktop_mid {
+	position: absolute;
+  left: 0;
+  right: 40%;
+  top: 70%;
+}
+
+.button_container_desktop_bot {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 70%;
+}
+
+.button_container_top {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+}
+
+.button_container_mid {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%;
+}
+
+.button_container_bot {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 65%;
+}
+
+.description, .link {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+.description {
+	font-size: 35px;
+}
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: rgb(34,34,34);
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #fbebe1;
+  padding: 17px 60px;
+  margin: 0 auto;
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #df5244;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+
+}
+
+.link a {
+  color: #000;
+  font-size: 25px; 
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link href="{{url_for('static', filename ='css/main.css')}}" rel="stylesheet", type="text/css">
+    <link rel="stylesheet" href="{{url_for('static', filename ='css/menu.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename ='css/button.css')}}">
+    <title>Home</title>
+</head>
+<body id="desktop">
+    <br>
+    <h1>Kindling.</h1>
+    <br>
+    <br>
+    <br>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="nearyou">Home</a> </li>
+                        <li><a href="about">About</a> </li>
+                        <li><a href="#">Services</a> </li>
+                        <li><a href="#">Contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button_container_desktop_top">
+	    <button class="btn"  onclick="window.location.href = 'traveling';"><span>Traveling</span></button>
+    </div>
+<div class="button_container_desktop_mid">
+	    <button class="btn"  onclick="window.location.href = 'nearyou';"><span>Near You</span></button>
+    </div>
+<div class="button_container_desktop_bot">
+	    <button class="btn"  onclick="window.location.href = 'report';"><span>Report</span></button>
+    </div>
+<a href="/mobile" id="mob">
+<img alt="mobile" src="../static/css/phone-removebg-preview.png" width="50" height="50"></a>
+</body>
+
+</html>
