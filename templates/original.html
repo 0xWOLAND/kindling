@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link href="{{url_for('static', filename ='css/main.css')}}" rel="stylesheet", type="text/css">            <link rel="stylesheet" href="{{url_for('static', filename ='css/menu.css')}}">
+            <title>Nearby Fires</title>
+            {{infoboxmap.js}}
+
+    </head>
+    <body>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="desktop">Home</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h1> Nearby Fires</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 id="nearbyfires">Map</h2>
+        <br>
+        <br>
+        <br>
+           <div class="loc">     
+            {{infoboxmap.html}}
+        </div>
+        <div class="res">
+            <p>{{res}}</h3>
+        </div>
+    </body>
+</html>

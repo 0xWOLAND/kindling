@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link href="{{url_for('static', filename ='css/main.css')}}" rel="stylesheet", type="text/css">
+    <link rel="stylesheet" type="text/css" href="../static/css/input.css">
     <link rel="stylesheet" href="{{url_for('static', filename ='css/menu.css')}}">
     <link rel="stylesheet" href="{{url_for('static', filename ='css/button.css')}}">
+    <link href="{{url_for('static', filename ='css/main.css')}}" rel="stylesheet", type="text/css">
     <title>Home</title>
 </head>
 <body id="desktop">
-    <h2>Fires Near You</h2>
-     <div class="menu-wrap">
+<div class="menu-wrap">
         <input type="checkbox" class="toggler">
         <div class="hamburger"><div></div></div>
         <div class="menu">
@@ -24,7 +24,22 @@
             </div>
         </div>
     </div>
-    <p> The purpose of this page is to alert user of nearby fires</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>Notes Submitted!</h2>
+<br>
+<br>
+<div class="button_container_bot">
+    <button class="btn"  onclick="window.location.href = 'report';"><span>Back</span></button>
+</div>
+<br>
 </body>
 
 </html>
